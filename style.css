@@ -1,0 +1,68 @@
+body{
+  background-image:url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+  /* opacity: 0.4; */
+  
+}
+
+#outer{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+
+#btn,#btn2{
+    height: 40px;
+    width: 130px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.bt{
+display:flex;
+margin: auto;
+width: 40%;
+gap:40px;
+margin-top:40px;
+align-items: center;
+justify-content: center;
+}
+
+
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: #32df4c;
+
+  }
+  
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #32df4c;
+  }
+  
+  .rectangle {
+    height: 50px;
+    width: 100px;
+    background-color: #32df4c;
+  }
+  
+  .circle {
+    height: 50px;
+    width: 50px;
+    background-color: #32df4c;
+    border-radius: 50%;
+  }
+
+
+
